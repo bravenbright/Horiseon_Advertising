@@ -7,6 +7,8 @@ This website provides valuable information to the reader relating to search engi
 ### Directions 
 To utilizze this page you go to the this url provided on any internet browser. There is no other download or other user direction necessary.
 
+file:///C:/Users/brigi/Bootcamp/challenge_assignments/week_1_challenge/index.html
+
 #### Challenges
 To succesfully deploy this page I had to refactor many elements in relation to the CSS style page to ensure it ran smoothly wihout any error. I also added comments to much of the written work.
 

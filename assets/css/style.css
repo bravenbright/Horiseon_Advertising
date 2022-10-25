@@ -16,7 +16,7 @@ body {
 }
 
 .header h1 {
-    display: inline-block;
+    display: inline;
     font-size: 48px;
 }
 
@@ -34,11 +34,13 @@ body {
 
 .header ul {
     list-style-type: none;
-    display: inline;
+    display: flex;
+    justify-content: flex-end ;
 }   
-
-.header div ul li {
-    display: inline-block;
+/*lines up list items in one line and collapses them when the menu closes*/
+.header ul li {
+    display: inline;
+    flex-wrap: wrap;
     margin-left: 25px;
 }
 
