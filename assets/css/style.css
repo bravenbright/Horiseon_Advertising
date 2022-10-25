@@ -38,7 +38,7 @@ body {
 }   
 
 .header div ul li {
-    display: inline-block;
+    display: flex: inline-flex;
     margin-left: 25px;
 }
 
@@ -66,7 +66,7 @@ p {
 }
 
 .float-right {
-    float: left;
+    float: left                                                                                                             ;
     margin-left: 25px;
 }
 
@@ -208,7 +208,7 @@ p {
 body {
     background-color: #d9dcd6;
 }
-
+/*changes color of the header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
