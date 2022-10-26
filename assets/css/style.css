@@ -34,10 +34,11 @@ body {
 
 .header ul {
     list-style-type: none;
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
 }   
 
-.header div ul li {
+.header ul li {
     display: flex: inline-flex;
     margin-left: 25px;
 }
@@ -55,7 +56,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -66,7 +67,7 @@ p {
 }
 
 .float-right {
-    float: left                                                                                                             ;
+    float: left;
     margin-left: 25px;
 }
 
