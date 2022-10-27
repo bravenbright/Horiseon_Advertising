@@ -20,7 +20,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+#seo {
     color: #d9dcd6;
 }
 
@@ -39,7 +39,8 @@ body {
 }   
 
 .header ul li {
-    display: flex: inline-flex;
+    display: flex;
+
     margin-left: 25px;
 }
 
@@ -53,8 +54,7 @@ p {
 }
 
 .hero {
-    background-image: url("./images/digital-marketing-meeting.jpg");
-    display: flex;
+   background-image: url("./images/digital-marketing-meeting.jpg");
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
@@ -196,7 +196,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
 * {
@@ -249,6 +249,8 @@ a {
 
 p {
     font-size: 16px;
+    display:flex
+    justify-content: flex-start;
 }
 
 .hero {
